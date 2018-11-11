@@ -285,7 +285,7 @@ class Deliveroo {
         },
         responseType: 'json'
       });
-      return response.data.restaurants;
+      return response.data;
     } catch (error) {
       console.log('error');
     }
